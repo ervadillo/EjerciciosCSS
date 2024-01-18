@@ -4,28 +4,52 @@
         <meta charset="utf-8">
         <title>Ejercicio 6</title>
         <style type="text/css">
-            
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                color: grey;
+            }
+            .cita {
+                color: rgb(24, 22, 22);
+                border-radius: 1em;
+                width: 120px;
+                height: 50px;
+                border: 1px solid black;
+                align-content: center;
+            }
+            .presupuesto {
+                color: white;
+                background-color: darkslategrey;
+                border-radius: 1em;
+                width: 120px;
+                height: 50px;
+                border: 1px solid black;
+                align-content: center;
+            }
+            .comentarios {
+                color: grey;
+                text-decoration: none;                
+            }
         </style>
     </head>
     <body>
         <div>
-            <div>
+            <div style="width: 100px;height: 100px;background-color: grey; color: darkslategrey;">
                 <p>100x100</p>
             </div>
             <div>
                 <h2>Centro de Salud</h2>
                 <h3>Medicina general</h3>
                 <div>
-                    <p><a href="\\reservarcita.html">Reservar cita</a></p>
-                    <p><a href="\\pedirpresupuesto.html">Pedir presupuesto</a></p>
+                    <p class="cita"><a style="text-decoration: none; color: grey;" href="\\reservarcita.html" >Reservar cita</a></p>
+                    <p class="presupuesto"><a style="text-decoration: none; color: white;"href="\\pedirpresupuesto.html">Pedir presupuesto</a></p>
                 </div>
             </div>
             <div>
                 <div>
                     <p>10 comentarios</p>
-                    <p><a href="\\comentarios.html">Ver comentarios</a></p>
+                    <p><a class="comentarios" href="\\comentarios.html">Ver comentarios</a></p>
                 </div>
-                <p>8.9</p>
+                <p style="color: rgb(24, 22, 22); font-size: x-large;">8.9</p>
             </div>
         </div>
     </body>
