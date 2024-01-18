@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio 5</title>
+        <style type="text/css">
+            form {
+                margin: 0 ;
+                width: 400px;
+                padding: 1em;
+                border: 1px solid black;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            form li {
+                margin-top: 1em;
+            }
+            label {
+                display: inline-block;
+                width: 90px;
+                text-align: left;
+            }
+            textarea {
+                vertical-align: top;
+            }
+            
+            .button {
+                width: 100px;
+                height: 30px;
+                border-radius: 1em;
+                color: white;
+                background-color: blue;
+                text-decoration: none;
+                align-self: center;
+                margin-left: 5em;                
+            }
+            .button:hover {
+                background-color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="/my-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name">Nombre:</label>
+                <input class="input" type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">Email:</label>
+                <input class="input" type="email" id="mail" name="user_mail" />
+              </li>
+              <li>
+                <label for="obs">Comentarios</label>
+                <textarea class="input" id="obs" name="user_comments"></textarea>
+              </li>
+              <li>
+                <label></label>
+                <button class="button" type="submit">Enviar</button>
+              </li>
+            </ul>
+            
+            
+          </form>
+    </body>
+</html>

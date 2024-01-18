@@ -1,0 +1,9 @@
+p {
+    border-color:  rgb(255, 145, 255); 
+    border-style: dotted;
+    font-style: italic; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
